@@ -19,9 +19,7 @@ class TelegramController extends Controller
             'parse_mode' => 'HTML',
         ];
 
-        $test = [
-            'test' => 'test'
-        ]
+        
 
        if ($replyMarkup) {
             $params['reply_markup'] = json_encode($replyMarkup);
